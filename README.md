@@ -1,8 +1,11 @@
 # local-laplacian-energy
 
+
 Reproducibility package for
 
 > C. Dede, **Local Laplacian Energy and Vertex-Deletion Profiles of Graphs**.
+
+**Paper (preprint):** [paper/local_laplacian_energy_preprint.pdf](paper/local_laplacian_energy_preprint.pdf)
 
 Every computational statement of the paper is checked by one function in `lle/checks/`, and
 `run_all` prints a PASS/FAIL line for each. With `MAX_ORDER=10` all **58 checks** pass
