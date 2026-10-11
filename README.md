@@ -97,4 +97,4 @@ run_all.py         command line;  reproduce.ipynb  single-cell notebook
 
 ## Citation
 
-See `CITATION.cff`. An archived release with a DOI is available on Zenodo: `10.5281/zenodo.XXXXXXX` (to be inserted).
+See `CITATION.cff`. An archived release with a DOI is available on Zenodo: `10.5281/zenodo.23298644`.
