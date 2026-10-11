@@ -1,0 +1,44 @@
+
+==============================================================================
+SECTION 5  Profile variance and discriminating power
+==============================================================================
+   PASS  Theorem (centering shift): |LE_G(v) - DeltaLambda| <= |avgd - 2 d_v|, order <= 7
+   PASS  Theorem (variance bound): both inequalities, order <= 7
+   PASS  Remark (sharpness): max ratio 0.650 attained by a star (True), median 0.065
+   PASS  Remark (sharpness): star ratios 0.650, 0.875, 0.950 at n = 7, 20, 50
+         computed [0.65  0.875 0.95 ]
+   PASS  Corollary (regular graphs): both bounds on every regular graph of order <= 8
+   PASS  Example (regular, not deck-homogeneous): FFzn_
+         profile ['2/3', '2/3', '2/3', '4/3', '4/3', '4/3', '4/3'] ; Delta Lambda [-0.0, 0.0, 0.0, 0.0, 2.0, 2.0, 2.0]
+   PASS  Corollary (spread from the baseline): hypothesis realised by F~AGO and F?\vg
+   PASS  Example (smallest cospectral pair): charpoly x*(x - 3)**2*(x - 2)*(x**2 - 6*x + 4), LE = 4 + 2 sqrt 5
+   PASS  Example (rook 4x4, Shrikhande): cospectral, LE = 36, constant profiles 3.177795 / 3.223746
+   PASS  Example (cospectral graphs with identical profiles): HC~vfr~, H?~vvj~
+         spectrum [0.0, 5.0, 5.0, 5.0, 5.0, 7.0, 7.0, 9.0, 9.0] ; profile ['16/9', '16/9', '16/9', '16/9', '34/9', '34/9', '34/9', '34/9', '43/9'] ; vertex-deleted spectral decks differ: True
+   PASS  Census, order 6: (3, 7, 5, 3, 0, 0, 0, 1)
+         paper (3, 7, 5, 3, 0, 0, 0, 1) ; profile pairs certified exactly 1/1 ; rational 1 ; need reflection 0 ; cospectral with equal profile 0
+   PASS  Census, order 7: (20, 41, 22, 3, 15, 5, 2, 1)
+         paper (20, 41, 22, 3, 15, 5, 2, 1) ; profile pairs certified exactly 1/1 ; rational 1 ; need reflection 0 ; cospectral with equal profile 0
+   PASS  Census, order 8: (135, 305, 258, 10, 85, 47, 37, 6)
+         paper (135, 305, 258, 10, 85, 47, 37, 6) ; profile pairs certified exactly 6/6 ; rational 4 ; need reflection 2 ; cospectral with equal profile 0
+   PASS  Census, order 9: (1059, 2296, 1499, 6, 1080, 642, 596, 53)
+         paper (1059, 2296, 1499, 6, 1080, 642, 596, 53) ; profile pairs certified exactly 53/53 ; rational 20 ; need reflection 26 ; cospectral with equal profile 6
+   PASS  Census, order 10: (17856, 37296, 24335, 42, 15852, 12900, 12335, 19)
+         paper (17856, 37296, 24335, 42, 15852, 12900, 12335, 19) ; profile pairs certified exactly 19/19 ; rational 5 ; need reflection 3 ; cospectral with equal profile 7
+   PASS  Census, order 10: largest class (42 graphs, ten sizes in [22,34], 42 degree sequences, 42 charpolys, 41 profiles)
+   PASS  Remark (exactness), order 10: 19 certified, 5 rational, 3 need the reflection
+   PASS  Cospectral pairs with identical profile: none through order 8, six at 9, seven at 10
+         {6: 0, 7: 0, 8: 0, 9: 6, 10: 7}
+   PASS  Census stability, order 7: classification unchanged for every tolerance in [1.1e-13, 8.6e-02)
+         0 cross-class pairs closer than 1e-06, each confirmed distinct in 60-digit arithmetic
+   PASS  Census stability, order 8: classification unchanged for every tolerance in [1.9e-13, 2.6e-04)
+         0 cross-class pairs closer than 1e-06, each confirmed distinct in 60-digit arithmetic
+   PASS  Census stability, order 9: classification unchanged for every tolerance in [3.1e-13, 1.5e-06)
+         0 cross-class pairs closer than 1e-06, each confirmed distinct in 60-digit arithmetic
+   PASS  Census stability, order 10: classification unchanged for every tolerance in [6.5e-13, 2.0e-09)
+         8 cross-class pairs closer than 1e-06, each confirmed distinct in 60-digit arithmetic
+   -- 22 / 22 passed  (91.9 s)
+
+==============================================================================
+TOTAL: 22 / 22 checks passed   (92 s)
+==============================================================================

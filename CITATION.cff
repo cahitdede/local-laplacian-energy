@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Reproducibility package for: Local Laplacian Energy and Vertex-Deletion Profiles of Graphs"
+version: 1.0.0
+date-released: 2026-10-11          
+license: MIT
+repository-code: "https://github.com/cahitdede/local-laplacian-energy"  
+authors:
+  - family-names: Dede
+    given-names: Cahit
+    affiliation: "Department of Mathematics, Faculty of Science, Selçuk University, Konya, Türkiye"
+    orcid: "https://orcid.org/0000-0001-5362-9513"                         
+keywords: [Laplacian energy, local Laplacian energy, vertex deletion, spectral graph theory, graph census]

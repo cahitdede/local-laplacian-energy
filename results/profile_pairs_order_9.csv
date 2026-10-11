@@ -1,0 +1,54 @@
+g1,g2,cospectral,certified_exactly,rational_profile,needs_reflection,exact_profile
+HQ~v~z~,HCR~vzy,False,True,True,False,5/3 5/3 5/3 5/3 8/3 8/3 8/3 8/3 8/3
+H?~vvj~,HC~vfr~,True,True,True,False,16/9 16/9 16/9 16/9 34/9 34/9 34/9 34/9 43/9
+HCZJlr~,HCZbur~,True,True,False,True,
+HCZJfr~,HCZLvJ~,False,True,False,True,
+HEhvAz~,H?zTrj~,True,True,False,False,
+H?qtnr~,HCdffr~,True,True,False,True,
+HCZL^b~,HCqjfr~,False,True,False,True,
+HCpdrn~,HCrfQz~,True,True,False,True,
+HCrRVN~,HCpfd^~,False,True,False,True,
+H?qjfz~,H?qnfZ~,False,True,False,True,
+HCpdR~~,HCpVez~,False,True,False,True,
+H?zn~z},H?~vv~~,False,True,True,False,2/9 20/9 20/9 38/9 38/9 38/9 38/9 38/9 38/9
+H?zn~z},H?r~vz~,False,True,True,False,2/9 20/9 20/9 38/9 38/9 38/9 38/9 38/9 38/9
+H?~vv~~,H?r~vz~,False,True,True,False,2/9 20/9 20/9 38/9 38/9 38/9 38/9 38/9 38/9
+HCper^~,H?o|vN~,False,True,False,True,
+HCQvev~,H?o~Un~,False,True,False,True,
+HCpVbv~,HCpdm^~,False,True,False,True,
+HCRdnf~,H?qevz~,False,True,False,True,
+H?rn~z},H?b~vz~,False,True,True,False,4/9 22/9 22/9 40/9 40/9 40/9 40/9 40/9 40/9
+H?`bN~},H?`Dv~},False,True,True,False,22/9 22/9 71/18 71/18 40/9 40/9 40/9 40/9 40/9
+H?o~VN~,HCQufv~,False,True,False,True,
+H?rLfz~,H?bvVV~,False,True,False,True,
+H?o~Tn~,HCpfQ~~,True,True,False,True,
+HCpdVv~,H?qnb^~,False,True,False,True,
+H?qjb~~,HCpVc~~,False,True,False,True,
+H?Bvf~},H?`rn~},False,True,True,False,26/9 26/9 61/18 61/18 44/9 44/9 44/9 44/9 44/9
+H?qrm^~,HCpVff~,False,True,False,True,
+H?`f~zn,HCQtf~~,False,True,True,False,28/9 28/9 28/9 28/9 28/9 37/9 37/9 46/9 46/9
+H?rF~z~,H?rE^~},False,True,True,False,17/6 17/6 10/3 10/3 10/3 10/3 16/3 16/3 16/3
+HCXbZ^~,HCXb^~~,False,True,True,False,10/3 10/3 10/3 10/3 10/3 10/3 13/3 16/3 16/3
+HCQtdn~,H?`v~z~,False,True,True,False,17/6 17/6 10/3 10/3 10/3 16/3 16/3 16/3 16/3
+H?qtm^~,H?o}\v~,False,True,False,True,
+H?qnF~~,H?qbV~~,False,True,False,True,
+H?qnF~~,H?qnF^~,False,True,False,False,
+H?qbV~~,H?qnF^~,False,True,False,True,
+HCQdn~~,H?bF~zn,False,True,False,False,
+H?`CV~~,H?`CU^~,False,True,True,False,20/9 20/9 38/9 38/9 38/9 38/9 38/9 56/9 56/9
+H?`CV~~,H?`DV^~,False,True,True,False,20/9 20/9 38/9 38/9 38/9 38/9 38/9 56/9 56/9
+H?`CU^~,H?`DV^~,False,True,True,False,20/9 20/9 38/9 38/9 38/9 38/9 38/9 56/9 56/9
+H?bfV~~,H?bfV^~,False,True,False,False,
+H?bfV~~,HCQUf~~,False,True,False,True,
+H?bfV^~,HCQUf~~,False,True,False,True,
+H?qfV~~,H?bNF~~,False,True,False,True,
+H?bnV~~,H?bn~zn,False,True,True,False,8/3 8/3 14/3 14/3 14/3 14/3 14/3 14/3 17/3
+HCQTn~~,H?aN~z~,False,True,True,False,26/9 26/9 44/9 44/9 44/9 44/9 44/9 44/9 44/9
+H?`e^~~,H?rFV~~,False,True,False,True,
+H?`e^~~,H?rFV^~,False,True,False,True,
+H?rFV~~,H?rFV^~,False,True,False,False,
+H?rF^^~,H?`F^~~,False,True,True,False,28/9 28/9 28/9 28/9 83/18 46/9 46/9 46/9 46/9
+H?`f^~~,H?bMV~~,False,True,True,False,28/9 28/9 28/9 83/18 83/18 46/9 46/9 46/9 46/9
+HCQtln~,H?bM^~},False,True,True,False,28/9 28/9 37/9 46/9 46/9 46/9 46/9 46/9 46/9
+H?aNV~~,H?bfN~~,False,True,False,False,
+H?bE^~~,H?bF^~~,False,True,False,False,

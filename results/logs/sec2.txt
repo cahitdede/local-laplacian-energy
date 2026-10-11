@@ -1,0 +1,27 @@
+
+==============================================================================
+SECTION 2  Deletion-energy profiles
+==============================================================================
+   PASS  Remark (logical independence): P_3, K_3 values
+         LE(P3)=10/3  LE(K3)=4  e_L=6, 6
+   PASS  Remark (logical independence): paw and diamond
+         e_L(paw)=32/3  e_L(diamond)=28/3
+   PASS  Remark (logical independence): counts at order 3
+         equal e_L & different LE: 1 ; equal LE & different e_L: 0 ; paper (1, 0) ; 0 equalities not settled by symbols agree to 60 digits (max diff 0.0e+00)
+   PASS  Remark (logical independence): counts at order 4
+         equal e_L & different LE: 0 ; equal LE & different e_L: 3 ; paper (0, 3) ; 0 equalities not settled by symbols agree to 60 digits (max diff 0.0e+00)
+   PASS  Remark (logical independence): counts at order 5
+         equal e_L & different LE: 10 ; equal LE & different e_L: 4 ; paper (10, 4) ; 0 equalities not settled by symbols agree to 60 digits (max diff 0.0e+00)
+   PASS  Remark (logical independence): counts at order 6
+         equal e_L & different LE: 15 ; equal LE & different e_L: 152 ; paper (15, 152) ; 9 equalities not settled by symbols agree to 60 digits (max diff 2.5e-60)
+   PASS  Example (a): EEvw, EE~w
+         profiles ['14/5', '14/5', '18/5', '18/5', '18/5', '4'] | ['16/5', '16/5', '16/5', '18/5', '18/5', '18/5']
+   PASS  Example (b): FCQVw, FCQvw
+         profile ['8/7', '8/7', '22/7', '22/7', '22/7', '22/7', '36/7'] ; traces 20, 22
+   PASS  Theorem (central moments): duality for k=1..4, all graphs of order <= 7
+         max deviation 2.3e-12
+   -- 9 / 9 passed  (3.2 s)
+
+==============================================================================
+TOTAL: 9 / 9 checks passed   (3 s)
+==============================================================================

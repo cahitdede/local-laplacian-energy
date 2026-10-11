@@ -1,0 +1,116 @@
+{
+ "6": {
+  "order": 6,
+  "classes": 3,
+  "graphs": 7,
+  "pairs": 5,
+  "max_class": 3,
+  "max_spread": 3.019806626980426e-14,
+  "min_rejected_gap": NaN,
+  "equal_m": 0,
+  "equal_deg": 0,
+  "cospectral": 0,
+  "equal_profile": 1,
+  "cospectral_and_profile": 0,
+  "largest_class": {
+   "size": 3,
+   "sizes": [
+    10,
+    11,
+    12
+   ],
+   "distinct_degree_sequences": 3,
+   "distinct_charpolys": 3,
+   "distinct_profiles": 2
+  },
+  "certified": 1,
+  "rational_profiles": 1,
+  "needs_reflection": 0
+ },
+ "7": {
+  "order": 7,
+  "classes": 20,
+  "graphs": 41,
+  "pairs": 22,
+  "max_class": 3,
+  "max_spread": 7.460698725481052e-14,
+  "min_rejected_gap": 7.309706381519732e-06,
+  "equal_m": 15,
+  "equal_deg": 5,
+  "cospectral": 2,
+  "equal_profile": 1,
+  "cospectral_and_profile": 0,
+  "largest_class": {
+   "size": 3,
+   "sizes": [
+    12
+   ],
+   "distinct_degree_sequences": 3,
+   "distinct_charpolys": 3,
+   "distinct_profiles": 3
+  },
+  "certified": 1,
+  "rational_profiles": 1,
+  "needs_reflection": 0
+ },
+ "8": {
+  "order": 8,
+  "classes": 135,
+  "graphs": 305,
+  "pairs": 258,
+  "max_class": 10,
+  "max_spread": 1.8829382497642655e-13,
+  "min_rejected_gap": 2.3994701336960134e-08,
+  "equal_m": 85,
+  "equal_deg": 47,
+  "cospectral": 37,
+  "equal_profile": 6,
+  "cospectral_and_profile": 0,
+  "largest_class": {
+   "size": 10,
+   "sizes": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "distinct_degree_sequences": 10,
+   "distinct_charpolys": 10,
+   "distinct_profiles": 9
+  },
+  "certified": 6,
+  "rational_profiles": 4,
+  "needs_reflection": 2
+ },
+ "9": {
+  "order": 9,
+  "classes": 1059,
+  "graphs": 2296,
+  "pairs": 1499,
+  "max_class": 6,
+  "max_spread": 2.7711166694643907e-13,
+  "min_rejected_gap": 1.1036505043193756e-09,
+  "equal_m": 1080,
+  "equal_deg": 642,
+  "cospectral": 596,
+  "equal_profile": 53,
+  "cospectral_and_profile": 6,
+  "largest_class": {
+   "size": 6,
+   "sizes": [
+    21,
+    22,
+    25,
+    30,
+    31
+   ],
+   "distinct_degree_sequences": 6,
+   "distinct_charpolys": 6,
+   "distinct_profiles": 6
+  },
+  "certified": 53,
+  "rational_profiles": 20,
+  "needs_reflection": 26
+ }
+}

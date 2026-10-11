@@ -1,0 +1,55 @@
+
+==============================================================================
+SECTION 4  Classical graph families
+==============================================================================
+   PASS  Proposition (complete multipartite): LE = Phi(n), all partitions of N <= 12
+         max deviation 5.7e-14
+   PASS  Corollary (stars): LE, leaf value and e_L, exact, n <= 30
+   PASS  Corollary (complete bipartite): Lambda(p,q) and e_L(K_{p,q}), exact, p <= 6, q <= 8
+   PASS  Corollary (balanced multipartite): local energy, exact, r <= 5, t <= 5
+   PASS  Corollary (range): K_{r,r} value -n/2+5/2+1/(2(n-1)), exact r <= 12, numerical r <= 300
+   PASS  Corollary (range): equality LE_G(v) = LE(G) exactly at star centres, all graphs of order <= 10
+         order  4 : min LE_G(v) = +0.666667, attained by K_{2,2}: True (1 minimiser(s))
+         order  5 : min LE_G(v) = +0.872136  (odd order; minimiser DUw)
+         order  6 : min LE_G(v) = -0.400000, attained by K_{3,3}: True (1 minimiser(s))
+         order  7 : min LE_G(v) = -0.310997  (odd order; minimiser FCdfo)
+         order  8 : min LE_G(v) = -1.428571, attained by K_{4,4}: True (1 minimiser(s))
+         order  9 : min LE_G(v) = -1.666667  (odd order; minimiser H?B~vz|)
+         order 10 : min LE_G(v) = -2.444444, attained by K_{5,5}: True (1 minimiser(s))
+   PASS  Problem (minimum): K_{n/2,n/2} attains the minimum for every even order 4..10
+         Petersen             srg(10,3,0,1)
+         Clebsch              srg(16,5,0,2)
+         3x3 rook (Paley 9)   srg(9,4,1,2)
+         4x4 rook             srg(16,6,2,2)
+         Shrikhande           srg(16,6,2,2)
+         Paley 13             srg(13,6,2,3)
+         Paley 17             srg(17,8,3,4)
+   PASS  Theorem (SRG deletion spectrum): predicted = actual, 7 strongly regular graphs
+   PASS  Theorem (SRG): BB^T w = beta_j w with beta_j = ||B^T w||^2/||w||^2 >= 0, and A_{V2} B^T w = (lambda - mu - theta_j) B^T w
+   PASS  Example (Petersen, Clebsch): LE(P-v) = 20/3 + 4 sqrt 3, LE(C-v) = 28/3 + 4 sqrt 21
+         local energies 2.405130103 , 2.336363887
+         Paley  5 : LE_G(v) = 1.64370883  >=  bound 1.64370883
+         Paley 13 : LE_G(v) = 2.932405388  >=  bound 2.659641692
+         Paley 17 : LE_G(v) = 3.447348672  >=  bound 3.051585911
+         Paley 29 : LE_G(v) = 4.553617871  >=  bound 4.00603411
+   PASS  Corollary (conference graphs): formula, positivity and lower bound, Paley [5, 13, 17, 29]
+   PASS  Proposition (paths): simplified Pi_l = LE(P_l), l <= 60
+         max deviation 2.8e-14
+   PASS  Proposition (paths): old threshold floor((l/pi) arccos(1/l)) = ceil(l/2) - 1, l <= 100000
+   PASS  Proposition (cycles): Gamma_n = LE(C_n), positivity on actual graphs, n <= 60
+   PASS  Corollary (cycles): positive for 3 <= n <= 100000, minimum 2/3 at n = 4, n|4/pi - LE| bounded
+         max n|4/pi - LE_C(v)| = 3.7571362 ; LE_{C_1000}(v) = 1.270528631
+   PASS  Corollary (cycles): proof chain for even n, phi(2) = 0.1863394327 > 0, phi increasing
+   PASS  Proposition (corona spectrum): G o K_1 for 20 random connected G
+   PASS  Theorem (K_n o K_1): pendant-deletion charpoly x(x^2-(n+2)x+n)^(n-2)(x^2-(n+2)x+2n-1), n <= 12
+   PASS  Theorem (K_n o K_1): LE, core and pendant values, two atoms, n <= 30
+         max deviation 4.0e-13
+   PASS  Example (K_3 o K_1, K_4 o K_1): numerical profiles
+   PASS  Corollary (corona spread): all four error terms bounded (< 2) for n in [10, 100, 1000, 10000, 100000]
+   PASS  Proposition (clique joins): LE = Omega(a; b)
+   PASS  Corollary (windmills): LE, e_L, negativity condition, hub and blade values, exact, b <= 6, r <= 8
+   -- 23 / 23 passed  (59.7 s)
+
+==============================================================================
+TOTAL: 23 / 23 checks passed   (60 s)
+==============================================================================

@@ -1,0 +1,21 @@
+
+==============================================================================
+SECTION 3  The sign of the local energy
+==============================================================================
+   PASS  Lemma (variational form): LE = 2 max_k (S_k - k avgd), all graphs of order <= 8
+         12112 graphs, 0 violations
+   PASS  Lemma (deletion majorisation): S_k(G-v) <= S_k(G), all graphs of order <= 8
+         0 violations
+   PASS  Theorem (necessary condition): no vertex with d_v <= avgd/2 has negative local energy
+         119611146 (G,v) pairs of order <= 10 checked ; 161428 negative instances, all with d_v > avgd/2
+         order  6 :       112 graphs,       7 vertices with negative local energy, mean baseline shift -0.5905
+         order  7 :       853 graphs,       7 vertices with negative local energy, mean baseline shift -0.3673
+         order  8 :     11117 graphs,     161 vertices with negative local energy, mean baseline shift -0.3634
+         order  9 :    261080 graphs,    3746 vertices with negative local energy, mean baseline shift -0.3586
+         order 10 :  11716571 graphs,  157507 vertices with negative local energy, mean baseline shift -0.3691
+   PASS  Sharpness: LE_{K_n}(v) = 2 for 2 <= n <= 30 (exact)
+   -- 4 / 4 passed  (1.9 s)
+
+==============================================================================
+TOTAL: 4 / 4 checks passed   (2 s)
+==============================================================================

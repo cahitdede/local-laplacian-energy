@@ -1,0 +1,8 @@
+# class_id graph6   (all ~_L classes of connected graphs of order 6)
+0 E~~w
+0 E]~w
+1 EQjw
+1 E]zw
+2 EE~w
+2 EEvw
+2 EF~w
